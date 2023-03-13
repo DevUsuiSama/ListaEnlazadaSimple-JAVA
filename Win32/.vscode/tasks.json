@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe compilar archivo activo",
+            "command": "g++.exe",
+            "args": [
+                "-shared",
+                "-I",
+                "C:/Program Files/Java/jdk-19/include",
+                "-I",
+                "C:/Program Files/Java/jdk-19/include/win32",
+                "-I",
+                "include",
+                "src\\win32.cpp",
+                "-o",
+                "debug\\App.dll",
+            ],
+            "options": {
+                "cwd": "${cwd}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+}
